@@ -12,6 +12,8 @@
 #include <iostream>
 #include <limits>
 #include <armadillo>
+#include <cstdint>
+#include <fstream>
 
 
 

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\CIFAR10 Data Set">
+      <UniqueIdentifier>{8c885688-c80b-42d6-b443-12bb13f3e719}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,5 +35,25 @@
     <ClCompile Include="OneHiddenLayerANN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cifar10\data_batch_1.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
+    <None Include="cifar10\data_batch_2.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
+    <None Include="cifar10\data_batch_3.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
+    <None Include="cifar10\data_batch_4.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
+    <None Include="cifar10\data_batch_5.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
+    <None Include="cifar10\test_batch.bin">
+      <Filter>Resource Files\CIFAR10 Data Set</Filter>
+    </None>
   </ItemGroup>
 </Project>
